@@ -9,7 +9,7 @@ export const Profile = ({
 }) => {
   return (
     <div className={css.profile}>
-      <div classNmae={css.description}>
+      <div className={css.description}>
         <img src={avatar} alt={username} className={css.avatar} />
         <p className={css.name}>{username}</p>
         <p className={css.tag}>@{tag}</p>
